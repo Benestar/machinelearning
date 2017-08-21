@@ -75,6 +75,7 @@ pagination_dir: page
 theme: brewski
 theme_config:
   logo:
+  favicon:
   google_analytics:
   copyright:
     since: 2017
@@ -89,4 +90,7 @@ theme_config:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:Benestar/machinelearning.git
+  branch: deploy
+  message:
