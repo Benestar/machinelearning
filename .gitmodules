@@ -1,3 +1,6 @@
 [submodule "themes/landscape"]
 	path = themes/landscape
 	url = git@github.com:hexojs/hexo-theme-landscape.git
+[submodule "themes/brewski"]
+	path = themes/brewski
+	url = git@github.com:tiaanduplessis/hexo-theme-brewski.git
